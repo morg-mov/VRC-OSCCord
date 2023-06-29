@@ -21,8 +21,10 @@ if not os.path.isfile("./config.json"):
         with open("config.json", "w", encoding="utf-8") as f:
             json.dump(config, f, indent=4)
     except Exception as e:
-        print(f"\nAn error occurred creating the file.\n{e}")
+        print(f"\nAn error occurred creating the file.\n{e}\n")
+        input("Press [Enter] to exit...")
         exit(1)
+print("Done.\nStarting...")
 
 with open("./config.json", "r", encoding="utf-8") as f:
     config = json.load(f)
@@ -32,7 +34,7 @@ udpclient = udp_client.SimpleUDPClient("127.0.0.1", 9000)
 
 class MyClient(discord.Client):
     async def on_ready(self):
-        print(f"[discord.py] Logged on as {self.user}!")
+        print(f"[discord.py] Connected as {self.user}.")
 
     async def on_message(self, message):
         a = f"{message.author}: {message.content}"
