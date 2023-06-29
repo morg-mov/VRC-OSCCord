@@ -14,6 +14,6 @@ setup(name='OSCCord',
       version = '1.0.0',
       description = "A program for VRChat's OSC that outputs Discord Messages to your chatbox",
       options = {'build_exe': build_options},
-      url = "https://github.com/Morg-S9/OSCCord",
+      url = "https://github.com/Morg-S9/VRC-OSCCord",
       maintainer = "morg.mov",
       executables = executables)
