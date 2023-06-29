@@ -1,0 +1,11 @@
+# VSCode Settings
+/.vscode/
+
+# Python Virtual Environment
+/venv/
+
+# Config file
+config.json
+
+# cx_Freeze build folder
+/build/
