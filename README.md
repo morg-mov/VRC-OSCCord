@@ -49,4 +49,7 @@ Your bot should now be online and working!
 
 ## Running/Building from Source
 
-Soon(tm)
+1. Clone the repo
+2. Run `python -m pip install -r requirements.txt`
+
+From here, you can run the app by running `python OSCCord.py`. If you wish to build the program, you may do so by running `python setup.py build`.
