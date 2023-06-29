@@ -36,6 +36,23 @@ Click `Save Changes`.
 
 ![Save Changes button](assets/readme-images/savechanges-button.png)
 
+Click `OAuth2` then `URL Generator` in the array of buttons on the left.
+
+![OAuth/URL Generator button](assets/readme-images/oauth-url.png)
+
+Under `Scopes`, tick the `bot` scope.
+
+![Bot Scope Tickbox](assets/readme-images/oauth2-scopes.png)
+
+Another set of tickboxes should appear below. Under `Bot Permissions` and `General Permissions`, tick the `Read Messages/View Channels` permission.
+
+![Permissions Tickbox](assets/readme-images/bot-permissions.png)
+
+At the very bottom of the page is your bot invite link. Click `Copy` to copy it to your clipboard.
+
+![Copy Link button](assets/readme-images/copy-url.png)
+
+Paste it into your browser URL bar. Invite it to the server of your choosing.
 
 ### 2. Setup and run the program
 
