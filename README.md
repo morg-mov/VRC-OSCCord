@@ -56,7 +56,7 @@ Paste it into your browser URL bar. Invite it to the server of your choosing.
 
 ### 2. Setup and run the program
 
-Download the latest release of OSCCord [here](https://github.com/Morg-S9/aq-visualizer/releases), or  and extract it somewhere where it won't get tangled in with all your other files.
+Download the latest release of OSCCord [here](https://github.com/Morg-S9/aq-visualizer/releases) and extract it somewhere where it won't get tangled in with all your other files (or [build it from source](#runningbuilding-from-source)).
 
 Launch VRChat before running OSCCord.
 
