@@ -48,11 +48,7 @@ Another set of tickboxes should appear below. Under `Bot Permissions` and `Gener
 
 ![Permissions Tickbox](assets/readme-images/bot-permissions.png)
 
-At the very bottom of the page is your bot invite link. Click `Copy` to copy it to your clipboard.
-
-![Copy Link button](assets/readme-images/copy-url.png)
-
-Paste it into your browser URL bar. Invite it to the server of your choosing.
+At the very bottom of the page is your bot invite link. Keep this page open. We'll copy this to use later.
 
 ### 2. Setup and run the program
 
@@ -62,11 +58,19 @@ Launch VRChat before running OSCCord.
 
 With VRChat open, run OSCCord. It will prompt you for your Discord Token. Copy your token again if you need to, paste it into the console window, then press Enter. 
 
-Your bot should now be online and working!
+Return to that page we were just on. Click `Copy` to copy your bot invite link to your clipboard.
+
+![Copy Link button](assets/readme-images/copy-url.png)
+
+Paste it into your browser URL bar. Invite it to the server of your choosing.
+
+Once done, run the `/setchannel` command in the channel you wish for the bot to listen in on.
+
+Your bot should now be online and working! Happy playing!
 
 ## Running/Building from Source
 
 1. Clone the repo
 2. Run `python -m pip install -r requirements.txt`
 
-From here, you can run the app by running `python OSCCord.py`. If you wish to build the program, you may do so by running `python setup.py build`.
+From here, you can run the app by running `python OSCCord.py`. If you wish to build the program to use with an executable, you may do so by running `python setup.py build`.

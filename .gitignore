@@ -4,8 +4,9 @@
 # Python Virtual Environment
 /venv/
 
-# Config file
+# Program-generated files
 config.json
+guilds.db
 
 # cx_Freeze build folder
 /build/
