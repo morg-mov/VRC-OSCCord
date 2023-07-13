@@ -1,4 +1,4 @@
 simplejson
 python-osc
-discord.py
+py-cord
 cx-Freeze
