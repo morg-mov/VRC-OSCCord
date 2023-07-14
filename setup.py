@@ -2,7 +2,7 @@ from cx_Freeze import setup, Executable
 
 # Dependencies are automatically detected, but it might need
 # fine tuning.
-build_options = {'packages': [], 'excludes': []}
+build_options = {'packages': [], 'excludes': [], "replace_paths": [("*", "")]}
 
 base = 'console'
 
@@ -16,4 +16,5 @@ setup(name='OSCCord',
       options = {'build_exe': build_options},
       url = "https://github.com/Morg-S9/VRC-OSCCord",
       maintainer = "morg.mov",
-      executables = executables)
+      executables = executables
+      )
