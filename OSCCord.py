@@ -68,7 +68,9 @@ def check(guildid, channelid):
     """
     db.execute(f"SELECT channelID FROM channels WHERE guildID={int(guildid)};")
     response = db.fetchone()
-    if response[0] == channelid:
+    if response is None:
+        return False
+    elif response[0] == channelid:
         return True
     else:
         return False
@@ -100,7 +102,7 @@ async def on_ready():
 
 @bot.event
 async def on_message(message):
-    if check(message.guild.id, message.channel.id):
+    if message.guild is None or check(message.guild.id, message.channel.id):
         msg = f"{message.author.name}: {message.content}"
         print(f"[OSCCord] {msg}")
         udpclient.send_message("/chatbox/input", (msg, True))
