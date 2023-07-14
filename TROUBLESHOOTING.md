@@ -68,4 +68,5 @@ and follow these instructions exactly as last time, except for two things:
 ![Outbound Program](assets/readme-images/windows-firewall/outbound-program.png)
 
 - Name the rule `OSCCord Outbound`.
+
 ![Outbound Name](assets/readme-images/windows-firewall/outbound-name.png)
