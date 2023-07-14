@@ -44,7 +44,7 @@ Under `Scopes`, tick the `bot` and `applications.commands` scope.
 
 ![Bot Scope Tickbox](assets/readme-images/oauth2-scopes.png)
 
-Another set of tickboxes should appear below. Under `Bot Permissions` and `General Permissions`, tick the following permissions:
+Another set of tickboxes should appear below. Under `Bot Permissions`, tick the following permissions:
 
 ```
 Read Messages/View Channels
@@ -72,9 +72,13 @@ Once done, run the `/setchannel` command in the channel you wish for the bot to 
 
 Your bot should now be online and working! Happy playing!
 
+## I need help! My OSCCord isn't working!
+See [FAQ.md](https://github.com/Morg-S9/VRC-OSCCord/blob/main/FAQ.md)
+
 ## Running/Building from Source
 
 1. Clone the repo
 2. Run `python -m pip install -r requirements.txt`
 
 From here, you can run the app by running `python OSCCord.py`. If you wish to build the program to use with an executable, you may do so by running `python setup.py build`.
+
