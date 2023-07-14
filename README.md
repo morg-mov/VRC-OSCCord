@@ -40,13 +40,17 @@ Click `OAuth2` then `URL Generator` in the array of buttons on the left.
 
 ![OAuth/URL Generator button](assets/readme-images/oauth-url.png)
 
-Under `Scopes`, tick the `bot` scope.
+Under `Scopes`, tick the `bot` and `applications.commands` scope.
 
 ![Bot Scope Tickbox](assets/readme-images/oauth2-scopes.png)
 
-Another set of tickboxes should appear below. Under `Bot Permissions` and `General Permissions`, tick the `Read Messages/View Channels` permission.
+Another set of tickboxes should appear below. Under `Bot Permissions` and `General Permissions`, tick the following permissions:
 
-![Permissions Tickbox](assets/readme-images/bot-permissions.png)
+```
+Read Messages/View Channels
+Send Messages
+Use Slash Commands
+```
 
 At the very bottom of the page is your bot invite link. Keep this page open. We'll copy this to use later.
 
@@ -58,7 +62,7 @@ Launch VRChat before running OSCCord.
 
 With VRChat open, run OSCCord. It will prompt you for your Discord Token. Copy your token again if you need to, paste it into the console window, then press Enter. 
 
-Return to that page we were just on. Click `Copy` to copy your bot invite link to your clipboard.
+Return to the Discord Developer Portal. Click `Copy` to copy your bot invite link to your clipboard.
 
 ![Copy Link button](assets/readme-images/copy-url.png)
 
