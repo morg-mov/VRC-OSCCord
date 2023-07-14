@@ -56,7 +56,7 @@ At the very bottom of the page is your bot invite link. Keep this page open. We'
 
 ### 2. Setup and run the program
 
-Download the latest release of OSCCord [here](https://github.com/Morg-S9/aq-visualizer/releases) and extract it somewhere where it won't get tangled in with all your other files (or [build it from source](#runningbuilding-from-source)).
+Download the latest release of OSCCord [here](https://github.com/Morg-S9/VRC-OSCCord/releases) and extract it somewhere where it won't get tangled in with all your other files (or [build it from source](#runningbuilding-from-source)).
 
 Launch VRChat before running OSCCord.
 
