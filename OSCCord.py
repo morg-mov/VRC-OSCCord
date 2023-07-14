@@ -101,6 +101,22 @@ async def on_ready():
 
 
 @bot.event
+async def on_guild_join(guild):
+    if guild.system_channel is not None:
+        embed = discord.Embed(
+            type="rich",
+            color=discord.Color.from_rgb(88, 101, 242),
+            title="Thank you for using OSCCord!",
+            description="Don't forget to set the channel for the bot to listen to with `/setchannel`! (it'll just ignore you otherwise...)",
+        )
+        embed.set_footer(
+            text="Made with <3 and a lot of caffeine by Morg.mov",
+            icon_url="https://raw.githubusercontent.com/Morg-S9/VRC-OSCCord/main/assets/program-icon/OSCCord.png",
+        )
+        await guild.system_channel.send(embed=embed)
+
+
+@bot.event
 async def on_message(message):
     if message.guild is None or check(message.guild.id, message.channel.id):
         msg = f"{message.author.name}: {message.content}"
