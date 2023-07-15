@@ -70,3 +70,5 @@ and follow these instructions exactly as last time, except for two things:
 - Name the rule `OSCCord Outbound`.
 
 ![Outbound Name](assets/readme-images/windows-firewall/outbound-name.png)
+
+You can now close your firewall config window.
