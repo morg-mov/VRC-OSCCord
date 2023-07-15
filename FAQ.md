@@ -1,7 +1,7 @@
 # FAQ/Troubleshooting
 
 ## *"I keep getting a warning on startup talking about a missing package!"*
-This is safe to ignore. The program I use to package up the binaries currently has a bug that doesn't grab the Pycord Version data properly. This will hopefully be fixed soon.
+This is safe to ignore. This was caused by a bug with the package compiler I use that didn't grab the Pycord version data properly. This was fixed in v2.1.1 and I would recommend [downloading the latest version of OSCCord](https://github.com/Morg-S9/VRC-OSCCord/releases).
 
 ## *"The `/setchannel` command isn't working!"*
 There are two major reasons this usually happens.
