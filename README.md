@@ -5,6 +5,14 @@ Very simple little program for VRChat OSC, it takes the messages from a Discord 
 ##### Demonstrated by my good friend Envy!
 <br>
 
+## Table of Contents
+- [Installation Instructions](#instructions)
+    - [1. Create a bot on Discord](#1-create-a-bot-on-discord)
+    - [2. Create an invite URL](#2-create-an-invite-url)
+    - [3. Setup and run the program](#3-setup-and-run-the-program)
+- ["I need help! My OSCCord isn't working!"](#i-need-help-my-osccord-isnt-working)
+- [Running/Building from source](#runningbuilding-from-source)
+
 ## Instructions
 
 ### 1. Create a bot on Discord
@@ -36,6 +44,8 @@ Click `Save Changes`.
 
 ![Save Changes button](assets/readme-images/savechanges-button.png)
 
+### 2. Create an invite URL
+
 Click `OAuth2` then `URL Generator` in the array of buttons on the left.
 
 ![OAuth/URL Generator button](assets/readme-images/oauth-url.png)
@@ -54,7 +64,7 @@ Use Slash Commands
 
 At the very bottom of the page is your bot invite link. Keep this page open. We'll copy this to use later.
 
-### 2. Setup and run the program
+### 3. Setup and run the program
 
 Download the latest release of OSCCord [here](https://github.com/Morg-S9/VRC-OSCCord/releases) and extract it somewhere where it won't get tangled in with all your other files (or [build it from source](#runningbuilding-from-source)).
 
@@ -72,13 +82,13 @@ Once done, run the `/setchannel` command in the channel you wish for the bot to 
 
 Your bot should now be online and working! Happy playing!
 
-## I need help! My OSCCord isn't working!
+## "I need help!" "My OSCCord isn't working!"
 See [FAQ.md](https://github.com/Morg-S9/VRC-OSCCord/blob/main/FAQ.md)
 
-## Running/Building from Source
+## Running/Building from source
 
 1. Clone the repo
 2. Run `python -m pip install -r requirements.txt`
 
-From here, you can run the app by running `python OSCCord.py`. If you wish to build the program to use with an executable, you may do so by running `python setup.py build`.
+From here, you can run the app by running `python OSCCord.py`. If you wish to build the program to use with an executable, you may do so by running `python setup.py build`. You'll find the final build in the `/build/` directory.
 
