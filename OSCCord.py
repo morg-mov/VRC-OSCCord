@@ -66,7 +66,7 @@ def check(guildid, channelid):
     Checks to see if the channel ID matches the one stored in the db by user.
     Returns true if match, returns false otherwise.
     """
-    db.execute(f"SELECT channelID FROM channels WHERE guildID={int(guildid)};")
+    db.execute(f"SELECT channelID FROM channels WHERE guildID = {int(guildid)};")
     response = db.fetchone()
     if response is None:
         return False
